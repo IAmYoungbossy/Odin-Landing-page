@@ -3,6 +3,15 @@ body {
     padding: 0%;
 }
 
+h1 {
+    margin: 0;
+}
+
+.secondary-hero {
+    margin-top: 5px;
+    font-size: 1.2em;
+}
+
 button a {
     text-decoration: none;
     margin: 0%;
@@ -14,7 +23,7 @@ h3 {
     padding: 0%;
     font-weight: bold;
     font-weight: 24px;
-    color: white;
+    color: white
 }
 
 header {
@@ -23,7 +32,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 20px 150px;
-    background-color: #1f2937;
+    background-color: #354a5f;
 }
 
 ul {
@@ -50,14 +59,11 @@ li a {
     background-color: #1f2937;
     color: white;
     font-size: 18px;
-    /* padding: 150px 200px; */
-    /* border: 1px solid; */
 }
 
 .sign-up-top {
     margin: 0%;
     padding: 0%;
-    /* border: 1px solid; */
 }
 
 .main-header {
@@ -74,7 +80,6 @@ li a {
 
 .image-illustration {
     display: flex;
-    /* justify-content: space-between; */
     padding: 20px 150px;
     gap: 5px;
 }
@@ -89,8 +94,9 @@ li a {
     width: 250px;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
+    text-align: center;
+    border: 4px dotted #b4bcca;
+    border-radius: 10px;
 }
 
 #info {
@@ -135,6 +141,41 @@ li a {
     background-color: #3882f6;
     padding: 20px 150px;
     color: white;
+    border-radius: 10px;
+    font-size: 1.2em;
+}
+
+.down {
+    background-color: #3882f6;
+    border: 2px solid white;
+    padding: 8px 30px;
+    border-radius: 10px;
+}
+
+.up {
+    background-color: #3882f6;
+    padding: 8px 30px;
+    border-radius: 10px;
+    border: #3882f6;
+}
+
+.down a {
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.up a {
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.infotext {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 footer {
