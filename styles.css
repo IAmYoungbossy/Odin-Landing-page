@@ -13,6 +13,8 @@ h3 {
     margin: 0%;
     padding: 0%;
     font-weight: bold;
+    font-weight: 24px;
+    color: white;
 }
 
 header {
@@ -20,6 +22,8 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 20px 150px;
+    background-color: #1f2937;
 }
 
 ul {
@@ -29,10 +33,12 @@ ul {
     padding: 0%;
     display: flex;
     gap: 20px;
+    font-size: 18px;
 }
 
 li a {
     text-decoration: none;
+    color: white;
 }
 
 .hero-text {
@@ -41,6 +47,10 @@ li a {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    background-color: #1f2937;
+    color: white;
+    font-size: 18px;
+    /* padding: 150px 200px; */
     /* border: 1px solid; */
 }
 
@@ -51,17 +61,22 @@ li a {
 }
 
 .main-header {
-    font-size: 2.3em;
+    font-size: 48px;
+    font-weight: bolder;
 }
 
 .hero-content {
     display: flex;
     justify-content: space-between;
+    padding: 100px 150px;
+    background-color: #1f2937;
 }
 
 .image-illustration {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    padding: 20px 150px;
+    gap: 5px;
 }
 
 .display-image {
@@ -82,35 +97,44 @@ li a {
     margin: 0%;
     display: flex;
     justify-content: center;
+    font-size: 36px;
+    font-weight: bolder;
 }
 
 .quote {
     display: flex;
     flex-direction: column;
+    background-color: #e5e7eb;
+    justify-content: center;
     align-items: center;
-    /* border: 1px solid; */
+    margin-top: 50px;
+    padding: 50px 0px;
 }
 
 .quote-text {
-    width: 500px;
-    /* border: 1px solid; */
-    padding: 0%;
-    margin: 0%;
+    width: 600px;
+    font-size: 36px;
+    font-style: italic;
+    
 }
 
 .quote-author {
     width: 500px;
     display: flex;
     justify-content: flex-end;
-    /* border: 1px solid; */
-    padding: 0%;
+    padding-right: 40px;
     margin: 0%;
+    font-weight: bold;
 }
 
 .call-to-action {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 100px 150px;
+    background-color: #3882f6;
+    padding: 20px 150px;
+    color: white;
 }
 
 footer {
@@ -118,6 +142,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* border: 1px solid; */
+    background-color: #1f2937;
     margin: 0%;
+    color: white;
 }
